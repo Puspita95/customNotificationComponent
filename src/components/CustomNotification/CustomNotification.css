@@ -1,0 +1,104 @@
+.cnBox {
+  display: flex;
+  align-items: center;
+  left: 50%;
+  margin: 0 0.5rem 0.8rem 0;
+  box-sizing: border-box;
+  gap: 0.5rem;
+}
+.cnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cnOuterBox {
+  position: relative;
+  max-width: 100%;
+  padding: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.cnMultiLineBox {
+  max-width: 25%;
+}
+.cnHeading {
+  font-weight: bold;
+  margin: 0 5px 0 5px;
+}
+.info {
+  background-color: #d9edf7;
+  border-left: 5px solid #31708f;
+  color: #31708f;
+}
+
+.success {
+  background-color: #dff0d8;
+  border-left: 5px solid #3c763d;
+  color: #3c763d;
+}
+
+.warning {
+  background-color: #fcf8e3;
+  border-left: 5px solid #8a6d3b;
+  color: #8a6d3b;
+}
+
+.error {
+  background-color: #f2dede;
+  border-left: 5px solid #a94442;
+  color: #a94442;
+}
+
+.cnCloseButton {
+  color: #000;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.cnCloseDiv {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.cnBody {
+  display: flex;
+  align-items: center;
+}
+
+.cnIcon {
+  margin-right: 10px;
+}
+.icon-wrapper {
+  width: 25px;
+  height: 25px;
+}
+/* ------ */
+
+.progressBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #e0e0e0;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  transition: width 0.1s linear;
+}
+.progressinfo {
+  background-color: #31708f;
+}
+.progresssuccess {
+  background-color: #3c763d;
+}
+.progresswarning {
+  background-color: #8a6d3b;
+}
+.progresserror {
+  background-color: #a94442;
+}
